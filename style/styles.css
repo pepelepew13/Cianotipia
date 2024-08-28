@@ -311,6 +311,7 @@ input[type="range"], input[type="color"] {
         max-width: 80vw;
         height: auto;
         margin: 0 auto;
+        margin-top: 20px;
     } 
     .controls {
         width: 100%;
@@ -350,6 +351,7 @@ input[type="range"], input[type="color"] {
         max-width: 80vw;
         height: auto;
         margin: 0 auto;
+        margin-top: 20px;
     } 
     .controls {
         width: 100%;
