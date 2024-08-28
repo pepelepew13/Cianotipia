@@ -292,9 +292,10 @@ input[type="range"], input[type="color"] {
         flex-direction: column;
         align-items: center; /* Centra horizontalmente */
         justify-content: center; /* Centra verticalmente */
-        width: 80;
+        width: 80vw;
         height: auto;
         gap: 20px;
+        margin-top: 10vh;
     }
 
     .selected-image {
