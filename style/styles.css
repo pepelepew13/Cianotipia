@@ -344,6 +344,7 @@ input[type="range"], input[type="color"] {
         gap: 20px;
         width: 80vw;
         height: auto;
+        margin-top: 10px;
     }
 
     .carousel{
