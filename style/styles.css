@@ -295,7 +295,7 @@ input[type="range"], input[type="color"] {
         width: 80vw;
         height: auto;
         gap: 20px;
-        margin-top: 10vh;
+        margin-top: 10px;
     }
 
     .selected-image {
