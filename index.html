@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cianotipia</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="icon" href="resource/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="carousel">
+            <button class="arrow left-arrow">&lt;</button>
+            <div class="image-container">
+                <img id="selectedImage" class="selected-image" src="resource/foto_1.jpg" alt="Cianotipia">
+                <div id="bulb-1" class="bulb brightness-layer"></div>
+                <div id="bulb-2" class="bulb brightness-layer"></div>
+                <div id="bulb-3" class="bulb brightness-layer"></div>
+            </div>
+            <button class="arrow right-arrow">&gt;</button>
+            <div class="thumbnails">
+                <img class="thumbnail" src="resource/foto_1.jpg" alt="Thumbnail 1">
+                <img class="thumbnail" src="resource/foto_2.jpg" alt="Thumbnail 2">
+                <img class="thumbnail" src="resource/foto_3.jpg" alt="Thumbnail 3">
+                <img class="thumbnail" src="resource/foto_4.jpg" alt="Thumbnail 4">
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="toggleButton" class="icon-button">
+                <i class="fas fa-lightbulb"></i>
+            </button>
+            <div class="brightness-control">
+                <label for="brightnessRange">Brillo</label>
+                <input type="range" id="brightnessRange" min="1" max="2" step="0.1" value="1" disabled>
+            </div>
+            <div class="color-control">
+                <label for="colorPicker">Color</label>
+                <input type="color" id="colorPicker" value="#FFFFFF">
+            </div>
+            <button id="resetButton">Restablecer</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
