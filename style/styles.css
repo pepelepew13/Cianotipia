@@ -88,8 +88,6 @@ body {
     height: 80%;
     overflow: hidden; /* Recorta cualquier parte que sobresalga del contenedor */
     position: relative; /* Para posicionar bombillas de forma absoluta */
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 .selected-image {
@@ -295,7 +293,7 @@ input[type="range"], input[type="color"] {
         width: 80vw;
         height: auto;
         gap: 20px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .selected-image {
@@ -344,7 +342,7 @@ input[type="range"], input[type="color"] {
         gap: 20px;
         width: 80vw;
         height: auto;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .carousel{
