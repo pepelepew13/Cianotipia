@@ -90,8 +90,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Actualizar filtros de imagen
     function updateFilters() {
         const brightness = parseFloat(brightnessRange.value);
-        selectedImage.style.filter = `brightness(${brightness}) hue-rotate(${currentHue}deg)`;
+        selectedImage.style.filter = `sepia(1) saturate(2) brightness(${brightness}) hue-rotate(${currentHue}deg)`;
     }
+    
 
     // Obtener rotación de tono basado en color hexadecimal
     function getHueRotation(hexColor) {
